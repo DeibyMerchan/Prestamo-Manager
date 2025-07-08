@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PrestamoManager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="contenedor">
+  <div class="barra-lateral">
+    <div class="logo">
+      <img  src="/icons/prestamo-manager.png">
+    </div>
+  </div>
+
+  <div class="contenido">
+    <div class="contenido-formulario">
+
+      <div class="formularios iniciar-sesion-form">
+        <form action="">
+          <h1 class="titulo">INICIO DE SESIÓN</h1>
+          <div class="texto-inicial">
+            <p class="subtitulo">¿No tienes una cuenta?</p><a id="registrarse-texto" type="button" class="preciona-aqui">Registrate</a>
+          </div>
+          <div class="input-contenedor">
+            <label for="email">Correo electronico</label>
+            <input type="email" id="email-iniciar-sesion" placeholder="email@example.com">
+          </div>
+          <div class="input-contenedor">
+            <div>
+              <label for="password">Contraseña</label>
+            </div>
+            <input type="password" id="password-iniciar-sesion" placeholder="● ● ● ● ● ● ● ● ● ● ● ●">
+            <a href="#" class="has-olvidado-tu-contraseña">¿Has olvidado tu contraseña?</a>
+          </div>
+          <div class="botones">
+            <button class="boton-iniciar-sesion" id="boton-iniciar-sesion">Iniciar sesión</button>
+          </div>
+          <div class="linea-separadora">
+            <span> O </span>
+          </div>
+          <div class="otro-inicio-de-sesion">
+            <a href="#" class="google">
+              <img src="/icons/google.svg" alt="google icon">
+              <span>Iniciar con Google</span>
+            </a>
+          </div>
+          <div class="creditos">
+            <h2 class="creditos-texto"> © 2025 PréstamoManager</h2>
+          </div>
+        </form>
+      </div>
+      <div class="contenido-formulario registrarse-form hide">
+        <div class="formularios ">
+          <form action="">
+            <h1 class="titulo">REGISTRO</h1>
+            <div class="texto-inicial">
+              <p class="subtitulo">¿Ya tienes una cuenta?</p><a id="iniciar-sesion-texto" class="preciona-aqui">Iniciar sesión</a>
+            </div>
+            <div class="input-contenedor">
+              <label for="email">Nombre</label>
+              <input type="text" id="name" placeholder="tu nombre">
+            </div>
+            <div class="input-contenedor">
+              <label for="email">Correo electronico</label>
+              <input type="email" id="email" placeholder="email@example.com">
+            </div>
+            <div class="input-contenedor">
+              <div>
+                <label for="password">Contraseña</label>
+              </div>
+              <input type="password" id="password" placeholder="mínimo 5 digítos">
+            </div>
+            <div class="botones registrase-boton">
+              <button class="boton-iniciar-sesion " id="boton-registrarse">Registrarse</button>
+            </div>
+            <div class="linea-separadora">
+              <span> O </span>
+            </div>
+            <div class="otro-inicio-de-sesion">
+              <a href="#" class="google">
+                <img src="/icons/google.svg" alt="google icon">
+                <span>Registrarse con Google</span>
+              </a>
+            </div>
+            <div class="creditos">
+              <h2 class="creditos-texto"> © 2025 PréstamoManager</h2>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
